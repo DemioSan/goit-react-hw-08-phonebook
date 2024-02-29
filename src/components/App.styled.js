@@ -62,11 +62,7 @@ export const AppDiv = styled('div')`
     font-weight: bold;
 
     &.active {
-      background-image: linear-gradient(
-        45deg,
-        #ff9d7f,
-        #ffdab9
-      ); /* Lighter gradient colors */
+      background-image: linear-gradient(45deg, #ff9d7f, #ffdab9);
       background-clip: text;
       -webkit-background-clip: text;
       color: transparent;
