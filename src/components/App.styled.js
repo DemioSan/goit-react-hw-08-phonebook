@@ -10,7 +10,7 @@ export const AppDiv = styled('div')`
   align-items: center;
   font-size: 30px;
   color: #ffffff;
-  background-color: #cbad96;
+  background-image: linear-gradient(45deg, #ff9d7f, #ffdab9);
 
   padding-bottom: 50px;
 
@@ -62,7 +62,7 @@ export const AppDiv = styled('div')`
     font-weight: bold;
 
     &.active {
-      background-image: linear-gradient(45deg, #ff9d7f, #ffdab9);
+      background-image: linear-gradient(45deg, #ffebee, #ffccbc);
       background-clip: text;
       -webkit-background-clip: text;
       color: transparent;
@@ -76,7 +76,8 @@ export const AppDiv = styled('div')`
     }
   }
 
-  a:hover {
+  a:hover,
+  :focus {
     text-decoration: underline;
     color: #951826;
   }

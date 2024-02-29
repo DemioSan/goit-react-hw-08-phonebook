@@ -35,7 +35,6 @@ export const contactsSlice = createSlice({
         state.isLoading = false;
         state.error = action.payload;
       })
-      // .addCase(deleteContact.pending, (state, action) => {})
       .addCase(deleteContactAPI.fulfilled, (state, action) => {
         state.isLoading = false;
         state.error = null;

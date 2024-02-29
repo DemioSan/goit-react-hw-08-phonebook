@@ -10,10 +10,6 @@ import {
   REGISTER,
 } from 'redux-persist';
 
-// export const store = configureStore({
-//   reducer,
-// });
-
 export const store = configureStore({
   reducer,
   middleware: getDefaultMiddleware =>
