@@ -23,7 +23,7 @@ function RegisterPage() {
   return (
     <form onSubmit={handleSubmit} className="login-form">
       <Link type="button" to="/">
-        {'<- Back to Home'}
+        {'Back to Home'}
       </Link>
 
       <h2>Sign up here</h2>
@@ -36,7 +36,7 @@ function RegisterPage() {
           id="exampleInputEmail1"
           aria-describedby="emailHelp"
         />
-        <div id="emailHelp">We'll never share your email with anyone else.</div>
+        <div id="emailHelp">Rest assured, your email is safe with us.</div>
       </div>
 
       <div className="login-form-section">

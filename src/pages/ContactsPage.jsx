@@ -26,7 +26,7 @@ function ContactsPage() {
 
   return (
     <>
-      <NavLink to="/"> {'<- Back to Home'}</NavLink>
+      <NavLink to="/"> {'Back to Home'}</NavLink>
 
       <h1>Phonebook</h1>
       <ContactForm />
